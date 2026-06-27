@@ -1,13 +1,8 @@
-def division(x, y):
-    result = x / y
-    return result
-
-
 try:
     num1 = int(input("Введите первое число: "))
     num2 = int(input("Введите второе число: "))
 
-    result = division(num1, num2)
+    result = num1 / num2
 except ValueError:
     print("Введено нечисловое значение!")
 except ZeroDivisionError:
